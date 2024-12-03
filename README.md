@@ -1,6 +1,6 @@
 # My Developer Portfolio
 
-Welcome to my portfolio! I'm a passionate **web developer** with experience in building **full-stack applications** and solving complex problems with code. Below you'll find details about my projects, skills, and ways to connect with me.
+Welcome to my portfolio! I'm a passionate **web developer**in building **full-stack applications** and solving problems with code. Below you'll find details about my projects, skills, and ways to connect with me.
 
 ---
 
