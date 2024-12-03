@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="index.css">
+    <style>
+        body {
+            background-color: rgb(242, 181, 174);
+            text-align: center;
+        }
+
+        nav {
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+        }
+        
+        nav li {
+            margin: 0 10px;
+            padding: 10px;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            justify-content: space-around;
+            padding: 0;
+            margin: 0;
+        }
+
+        img {
+            width: 750px; 
+            height: 400px;
+        }
+
+        .sidebar img {
+            width: 40px;
+            height: 40px;
+            margin: 0 10px;
+            transition: transform 0.3s ease;
+        }
+        .social-icons a:hover img {
+            transform: scale(1.2);
+        }
+    </style>
+
+</head>
+<body>
+    <header>
+        <h1>Welcome to My Portfolio</h1>
+        <nav>
+            <ul>
+                <li><a href="about.html">About</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        <img src="images/coding-girl.png" alt="coding-girl">
+    </header>
+
+    <section>
+        <h2>Let's Connect!</h2>
+        <p>Feel free to reach out to me for collaborations or inquiries.</p>
+        <a href="contact.html">Contact Me</a>
+    </section>
+    
+</body>
+</html>

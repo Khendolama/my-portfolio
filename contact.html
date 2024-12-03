@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            background-color: whitesmoke;
+            font-family: 'Roboto', sans-serif;
+        }
+        div {
+            background-color: #d2cdcd;
+            text-align: center;
+            padding: 20px;
+            margin: 20px;
+            border-radius: 10px;
+        }
+        a {
+            color: #0077b5;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        a:hover {
+            color: #005f8a;
+        }
+        .sidebar img {
+            width: 40px;
+            height: 40px;
+            margin: 0 10px;
+            transition: transform 0.3s ease;
+        }
+        .social-icons a:hover img {
+            transform: scale(1.2);
+        }
+        .sidebar a {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #0077b5;
+            color: white;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+        .sidebar a:hover {
+            background-color: #005f8a;
+        }
+        @media (max-width: 600px) {
+            .sidebar img {
+                width: 30px;
+                height: 30px;
+            }
+        }
+        .sidebar a.back-home {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #4CAF50;
+            color: white;
+            border-radius: 5px;
+            font-weight: bold;
+        }
+        .sidebar a.back-home:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <h3>Contact</h3>
+        <p>Email: khendolama37@gmail.com</p>
+        <br>
+        <div class="sidebar">
+            <a href="https://www.linkedin.com/in/khendo-lama-884a002aa/" title="Visit my LinkedIn">
+               <img src="images/linkdin.png" alt="LinkedIn Icon"/>
+            </a>
+            <a href="https://github.com/Khendolama" title="Visit my GitHub">
+               <img src="images/GitHub.png" alt="GitHub Icon"/>
+            </a>
+            <br><br>
+            <a href="index.html" class="back-home">Back to Home</a>
+        </div>
+    </div>
+</body>
+</html>
