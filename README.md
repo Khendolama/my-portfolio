@@ -8,7 +8,7 @@ Welcome to my portfolio! I'm a passionate **web developer** with experience in b
 
 I’m a **full stack web developer** specializing in **HTML, CSS, JS, MONGODB, EXPRESS, NODEJS, BOOTSTRAP** etc. I enjoy creating dynamic and responsive web applications, solving technical challenges, and continuously learning new technologies.
 
-I’m currently looking for opportunities to work on **Full Stack Web Developer**.
+I’m currently looking for opportunities to work on **Full Stack Web Developer, Frontend web developer, Backend web developer**.
 
 ---
 
@@ -44,10 +44,4 @@ Here are the technologies and tools I’m proficient in:
 I’d love to hear from you! Feel free to reach out to me for any project inquiries, collaborations, or job opportunities.
 
 - **Email**:khendolama37@gmail.com
-- **LinkedIn**: [your-linkedin-profile](https://www.linkedin.com/in/your-profile)
 
----
-
-## License
-
-This portfolio is open-source and available under the [MIT License](LICENSE).
