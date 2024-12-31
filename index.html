@@ -11,16 +11,16 @@
             margin-right: 40%;
             margin-bottom: 0px;
             color: rgb(47, 47, 235);
-        
         }
         a{
-            texr-decoration: none;
+            text-decoration: none;
+            
         }
 
         body {
             background-color: rgb(218, 245, 212);
             text-align: center;
-        
+            
         }
 
         nav {
@@ -28,12 +28,12 @@
             justify-content: flex-end;
             align-items: center;
         }
-        
+
         nav li {
-            margin-right:15px;
+            margin-right: 15px;
             margin-block-end: 7px;
             position: relative; /* For positioning the dropdown */
-            font-size: 15px
+            font-size: 15px;
             
         }
 
@@ -44,17 +44,21 @@
             padding: 0;
             margin: 0;
             margin-right: 130px;
+           
         }
 
         img {
-            width: 750px; 
+            width: 750px;
             height: 400px;
             border-radius: 30px;
-            
         }
-        .dropdwon:hover .dropdown-content{
-            display: bock;
+
+        /* Style for the dropdown container */
+        .dropdown:hover .dropdown-content {
+            display: block;
         }
+
+        /* Hide the dropdown menu by default */
         .dropdown-content {
             display: none;
             position: absolute;
@@ -62,7 +66,10 @@
             background-color: rgb(102, 107, 241);
             min-width: 60px;
             border-radius: 5px;
+    
         }
+
+        /* Style for the dropdown menu items */
         .dropdown-content li {
             padding: 10px;
             text-align: left;
@@ -72,25 +79,24 @@
             background-color: rgba(13, 212, 93, 0.1);
         }
 
-    
     </style>
-
 </head>
 <body>
     <header>
-           <h1>Hi, I'am Khendo  Web-Developer</h1>
+        <h1>Hi, I'am Khendo  Web-Developer</h1>
         <nav>
- 
             <ul>
-                 <li class="dropdwon">Service
-                     <ul class="dropdown-content">
-                         <li>Custom Website Design and Develoment</li>
-                         <li>E-Commerce Website Development</li>
-                         <li>Website Updates and Upgrades</li>
-                         <li>Web Hosting & Domain Services</li>
-          </li>
-                <li class="dropdown">technology
-                    <ul class="dropwon-content"
+                <li class="dropdown">Service
+                    <ul class="dropdown-content">
+                        <li>Custom Website Design and Development</li>
+                        <li>E-Commerce Website Development</li>
+                        <li>Website Updates and Upgrades </li>
+                        <li>Web Hosting & Domain Services</li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    Technology
+                    <ul class="dropdown-content">
                         <li>HTML</li>
                         <li>CSS</li>
                         <li>JavaScript</li>
@@ -99,17 +105,21 @@
                         <li>Bootstrap</li>
                         <li>Express.js</li>
                         <li>MongoDB</li>
-                </ul>
-           </li>
-            <li class="dropdwon"> Projects
-                <ul class="dropdwon-content"> <li><a href="https://khendolama.github.io/gender-prediction-app/">BabyApp</a> </li>
-                 </ul>
-            </li>
-                <li><a href="about.html">About</a></li>
+                    </ul>
+                </li>
+                 <li class="dropdown">Projects
+                    <ul class="dropdown-content">
+                        <li>
+                            <a href="https://khendolama.github.io/gender-prediction-app/">BabyApp</a>
+                        </li>
+                        
+                    </ul>
+                 </li>
+                <li><a href="About Me.html">About</a></li>
                 <li><a href="contact.html">Contact</a></li>
             </ul>
         </nav>
-        <img src="https://www.techopedia.com/wp-content/uploads/2023/02/istock-1173805290-1.jpeg" >
+        <img src="https://www.techopedia.com/wp-content/uploads/2023/02/istock-1173805290-1.jpeg" alt="Web Development Image">
     </header>
 
     <section>
