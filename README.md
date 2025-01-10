@@ -43,5 +43,5 @@ Here are the technologies and tools I’m proficient in:
 
 I’d love to hear from you! Feel free to reach out to me for any project inquiries, collaborations, or job opportunities.
 
-- **Email**:khendolama37@gmail.com
+- **Email**:lamakhendo4@gmail.com
 
